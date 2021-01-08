@@ -12,11 +12,13 @@ $ pip install -i https://test.pypi.org/simple/ scats_utils
 
 ## Features
 
-- TODO
+- Processing and conversion of LX files (showing offsets and linkages between SCATS sites) to GIS compatible files (geopackages, gpkg)
 
 ## Dependencies
 
-- TODO
+- Geopandas 0.8+
+- Pandas 1.0+
+- Shapely 1.7+
 
 ## Usage
 
