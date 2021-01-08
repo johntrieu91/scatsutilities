@@ -1,7 +1,7 @@
-scatsutils
-==========
+scatsutilities
+==============
 
 .. toctree::
    :maxdepth: 4
 
-   scatsutils
+   scatsutilities
