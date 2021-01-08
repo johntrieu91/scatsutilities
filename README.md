@@ -1,4 +1,4 @@
-# scats-utils 
+# scatsutils 
 
 ![](https://github.com/johntrieu91/scats_utils/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/johntrieu91/scats_utils/branch/main/graph/badge.svg)](https://codecov.io/gh/johntrieu91/scats_utils) ![Release](https://github.com/johntrieu91/scats_utils/workflows/Release/badge.svg) [![Documentation Status](https://readthedocs.org/projects/scats_utils/badge/?version=latest)](https://scats_utils.readthedocs.io/en/latest/?badge=latest)
 
