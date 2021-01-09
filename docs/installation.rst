@@ -12,7 +12,7 @@ To install scats-utils, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install -u scats_utils
+    $ pip install -u scatsutilities
 
 This is the preferred method to install scats-utils, as it will always install the most recent stable release.
 
@@ -32,28 +32,28 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/johntrieu91/scats_utils
+    $ git clone git://github.com/johntrieu91/scatsutilities
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/johntrieu91/scats_utils/tarball/main
+    $ curl  -OL https://github.com/johntrieu91/scatsutilities/tarball/main
 
 Once you have a copy of the source, you can install it. The method of installation will depend on the packaging library being used.
 
-For example, if `setuptools` is being used (a setup.py file is present), install scats_utils with:
+For example, if `setuptools` is being used (a setup.py file is present), install scatsutilities with:
 
 .. code-block:: console
 
     $ python setup.py install
 
-If `poetry` is being used (poetry.lock and pyproject.toml files are present), install scats_utils with:
+If `poetry` is being used (poetry.lock and pyproject.toml files are present), install scatsutilities with:
 
 .. code-block:: console
 
     $ poetry install
 
 
-.. _Github repo: https://github.com/johntrieu91/scats_utils
-.. _tarball: https://github.com/johntrieu91/scats_utils/tarball/master
+.. _Github repo: https://github.com/johntrieu91/scatsutilities
+.. _tarball: https://github.com/johntrieu91/scatsutilities/tarball/master
