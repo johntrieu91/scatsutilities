@@ -24,7 +24,38 @@ See poetry.lock for a list of dependencies.
 
 ## Usage
 
-- TODO
+### Make directories
+```python
+>>> from scatsutilities import scatsutilities
+>>> from pathlib import Path
+>>> input_folder_path = 'path/to/dir'
+>>> scatsutilities.make_output_dir(input_folder_path)
+```
+
+### Process LX files to create GIS files
+
+```python
+>>> from scatsutilities import scatsutilities
+>>> from pathlib import Path
+>>> lx_file_path = 'path/to/lx/file.lx'
+>>> scats_sites_path = 'path/to/scats/locations.csv'
+>>> output_folder = 'path/to/dir'
+>>> df, error_ints, error_subsys = scatsutilities.lx_to_gis(lx_file_path=lx_file_path,
+                                                            scats_sites_path=scats_sites_path,
+                                                            col_scats_x='Longitude',
+                                                            col_scats_y='Latitude',
+                                                            scats_input_crs_id=4326,
+                                                            scats_projected_crs_id=8058,
+                                                            output_folderPath_LX_processed=output_folder,
+                                                            output_gis_folderPath=output_folder,
+                                                            break_at_nonNumeric=True,
+                                                            search_term_intID='INT=',
+                                                            search_term_subsystem='S#=',
+                                                            search_term_pp='PP',
+                                                            search_term_subsystemData='SS=',
+                                                            search_limit=20,
+                                                            skip_initial_lines=10)
+```
 
 ## Documentation
 

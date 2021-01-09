@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scatsutilities"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python package providing utilities to process SCATS traffic system data"
 authors = ["John Trieu"]
 license = "MIT"
