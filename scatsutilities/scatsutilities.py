@@ -327,7 +327,7 @@ def lx_to_gis(lx_file_path,
         Used in `search_term_subsystemData` search to skip over the metadata in initial rows
         Default value is 10, which will skip the initial 10 lines of the LX file
     
-    Outputs
+    Returns
     -------
     df : pandas.DataFrame
         Dataframe of processed LX data, with:
@@ -342,10 +342,30 @@ def lx_to_gis(lx_file_path,
         List of Subsystem IDs with invalid data
         Format of ['Site ID', 'Error message']
         
-    Exports
-    -------
-    df : CSV file
-
+    Notes
+    -----
+    Exports the following files
+    
+    - df : CSV file
+    - GIS compatible geopackage (gpkg) files for
+        - PP1
+        - PP2
+        - PP3
+        - PP4
+        - LP1
+        - LP2
+        - LP3
+        - LP4
+        - SL1
+        - SL2
+        - SL3
+        - SL4
+    
+    Note that the `SLx` series is not always outputted, as sites are rarely slaved (i.e. hard-fixed) to an
+    adjacent site.
+    
+    QGIS styles are available from the Github repository:
+    https://github.com/johntrieu91/scatsutilities
     
     """
     ### PART 1 - READ IN DATA
