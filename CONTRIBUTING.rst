@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/johntrieu91/scats_utils/issues.
+Report bugs at https://github.com/johntrieu91/scatsutilities/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,14 +38,14 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-scats-utils could always use more documentation, whether as part of the
-official scats-utils docs, in docstrings, or even on the web in blog posts,
+scatsutilities could always use more documentation, whether as part of the
+official scatsutilities docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/johntrieu91/scats_utils/issues.
+The best way to send feedback is to file an issue at https://github.com/johntrieu91/scatsutilities/issues.
 
 If you are proposing a feature:
 
@@ -57,21 +57,21 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `scats_utils` for local development.
+Ready to contribute? Here's how to set up `scatsutilities` for local development.
 
-1. Fork the `scats_utils` repo on GitHub.
+1. Fork the `scatsutilities` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/scats_utils.git
+    $ git clone git@github.com:your_name_here/scatsutilities.git
 
 3. Install your local copy (it is recommended to do this with a virtual environment). The method of installation will depend on the packaging library being used.
-   For example, if `setuptools` is being used (a setup.py file is present), install scats_utils with:
+   For example, if `setuptools` is being used (a setup.py file is present), install scatsutilities with:
 
    .. code-block:: console
 
        $ python setup.py install
 
-   If `poetry` is being used (poetry.lock and pyproject.toml files are present), install scats_utils with:
+   If `poetry` is being used (poetry.lock and pyproject.toml files are present), install scatsutilities with:
 
    .. code-block:: console
 
@@ -84,7 +84,7 @@ Ready to contribute? Here's how to set up `scats_utils` for local development.
 5. When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests.
    For example, if the package uses the poetry package management library, black formatting style and pytest for testing::
 
-    $ poetry run black scats_utils
+    $ poetry run black scatsutilities
     $ poetry run pytest
 
 6. Commit your changes and push your branch to GitHub::
@@ -106,4 +106,4 @@ Before you submit a pull request, check that it meets these guidelines:
 
 Code of Conduct
 ---------------
-Please note that the scats-utils project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms.
+Please note that the scatsutilities project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms.
