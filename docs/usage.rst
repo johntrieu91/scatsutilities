@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use scats-utils in a project::
+To use scatsutilities in a project::
 
     import scatsutilities

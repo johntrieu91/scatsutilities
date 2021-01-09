@@ -20,6 +20,8 @@ $ pip install scatsutilities
 - Pandas 1.0+
 - Shapely 1.7+
 
+See poetry.lock for a list of dependencies.
+
 ## Usage
 
 - TODO

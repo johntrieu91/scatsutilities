@@ -1,4 +1,4 @@
-Welcome to scats-utils's documentation!
+Welcome to scatsutilities's documentation!
 ===========================================================
 
 .. image:: https://img.shields.io/badge/tutorial-py--pkgs-blue
@@ -15,7 +15,7 @@ Python package providing utilities to process SCATS traffic system data
 To get started, check out the sections below:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    installation
